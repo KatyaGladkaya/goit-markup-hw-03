@@ -172,9 +172,17 @@ margin-right: auto;
 
 .benefits-title {visibility: hidden;}
 
-.visually-hidden {position: absolute;
-display: none;
-}
+.visually-hidden {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        padding: 0;
+        border: 0;
+        overflow: hidden;
+        clip: rect(0 0 0 0);
+        white-space: nowrap;
+    }
 
 
 .benefits-list {list-style-type: none;
@@ -235,10 +243,6 @@ gap: 24px;
                 border-radius: 0px 0px 4px 4px;
 
         }
-.card {background-color: #FFFFFF;
-    
-    
-}
 
       .team-name {font-family: inherit;
         font-weight: 500;
